@@ -1,0 +1,30 @@
+{
+  "name": "game-of-horses",
+  "version": "1.0.0",
+  "description": "A fun horse game!",
+  "main": "index.js",
+  "repository": "git@github.com:LeoTheMighty/GameOfHorses.git",
+  "author": "Leo Belyi <leonid@ac93.org>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "dev": "nodemon client/server.js --exec babel-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
